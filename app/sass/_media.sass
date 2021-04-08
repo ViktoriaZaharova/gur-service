@@ -1,0 +1,376 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1400px)
+  .container
+    max-width: 1000px
+
+  .home-menu
+    font-size: 14px
+
+  .phone
+    margin: 0 0 0 15px
+
+  .service-box h3
+    font-size: 16px
+
+  .address
+    font-size: 14px
+
+  footer .phone
+    font-size: 15px
+
+  .mail
+    margin: 0
+    font-size: 16px
+
+  .payment-wrapper
+    margin: 0 0 40px
+
+  .callback-wrapper h3
+    font-size: 30px
+
+  .callback-wrapper-title p
+    font-size: 18px
+
+  .callback-wrapper-text
+    padding: 0 20px
+
+  .prices-box-auto
+    max-width: 220px
+
+  .problems-box__icon
+    width: 120px
+    padding: 20px
+
+  .problems-box__body
+    width: calc(100% - 120px)
+    padding: 20px 10px
+    align-items: center
+    display: flex
+    flex-wrap: wrap
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px)
+  .fixed-box
+    left: 0
+    bottom: 0
+    top: auto
+    height: 67px
+    width: 100%
+    overflow: visible
+    max-width: none
+    padding: 0 10px
+
+  .menu-home
+    display: flex
+    align-items: stretch
+    justify-content: space-between
+    flex-wrap: wrap
+    flex-direction: row
+    height: 100%
+    li
+      width: auto
+      height: 100%
+      a
+        height: 100%
+        padding: 10px
+
+  .wrapper
+    padding: 0 0 67px
+
+  .phone-icon
+    margin: 0 10px 0 0
+
+  header
+    padding: 10px 0
+
+
+@media only screen and (max-width: 992px)
+  .payment-wrapper h3
+    max-width: none
+
+  .phone, .home-menu
+    font-size: 12px
+
+  h1
+    font-size: 60px
+    line-height: normal
+
+  .main-img
+    width: 700px
+
+  .main .box-text
+    font-size: 24px
+    margin: 30px 0
+
+  .service
+    padding: 50px 0 30px
+
+  .problems-box h3
+    font-size: 12px
+
+  .prices-box__line span
+    min-width: 100px
+
+  .prices-box-wrap:before
+    right: 100px
+
+  .prices-box-name
+    font-size: 18px
+
+  .stages-work-box
+    flex: auto
+    width: 25%
+    margin: 0 0 30px
+    .number
+      font-size: 80px
+      line-height: normal
+
+  .prices
+    padding: 60px 0 40px
+
+  footer .phone, .mail
+    font-size: 14px
+
+  .message-text
+    margin: 0 0 0 10px
+
+  .address
+    font-size: 12px
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 900px)
+  header
+    .home-menu, .header-item
+      display: none
+    .logo
+      margin: 0 auto 0 0
+
+  .btn-burger
+    display: flex
+
+  .fixed-box
+    display: none
+
+  .wrapper
+    padding: 0
+
+  .logo
+    max-width: 70px
+
+  footer
+    .list-phones
+      margin: 10px auto 0
+      justify-content: center
+      width: 100%
+      order: 1
+
+@media only screen and (max-width: 768px)
+  .main-img
+    width: 100%
+    margin: 0 auto
+    padding: 60px 0 0
+
+  .main
+    .box-text
+      text-align: center
+      font-size: 18px
+    .btn
+      margin: 0 auto
+
+  h1
+    text-align: center
+    font-size: 40px
+
+  .main-img-overlay
+    max-width: 400px
+    top: 0
+
+  h2
+    font-size: 30px
+
+  .callback-wrapper
+    padding: 20px
+    flex-direction: column
+    align-items: center
+
+  .callback-wrapper-title, .callback-wrapper-text, .callback-wrapper-footer
+    width: 100%
+    padding: 0
+    text-align: center
+
+  .callback-wrapper-text
+    margin: 20px auto
+
+  .callback-wrapper-item:before
+    display: none
+
+  label
+    margin: 0 0 10px
+    &:last-child
+      margin: 0 0 10px
+
+  textarea
+    height: 120px
+
+  .checkbox
+    margin: 0 0 10px
+
+  form
+    .btn
+      max-width: 300px
+      margin: 20px auto 0
+
+  .payment-wrapper h3
+    font-size: 20px
+
+@media only screen and (max-width: 576px)
+  .service-box h3
+    min-height: auto
+
+  h2
+    font-size: 24px
+
+  .delivery-regions-box
+    padding: 30px
+
+  .delivery-regions
+    padding: 70px 0
+
+  .stages-work-box
+    width: 50%
+    .number
+      font-size: 60px
+      line-height: 1
+
+  .stages-work-box__text
+    padding: 10px
+
+  .calculate-wrapper
+    padding: 30px
+
+  .subtitle
+    font-size: 20px
+
+  .payment-img
+    left: 10px
+
+  .message-text
+    order: 1
+    width: 100%
+    max-width: none
+    margin: 10px auto 0
+
+  footer
+    padding: 20px 0
+
+@media only screen and (max-width: 480px)
+  .list-phones
+    flex-direction: column
+    align-items: flex-start
+    margin: 0 auto
+
+  .phone
+    margin: 0 0 10px
+    padding: 0
+    border: none
+      radius: 0
+    &:last-child
+      margin: 0
+
+  header
+    .logo
+      margin: 0
+
+  .main-img-overlay
+    max-width: 200px
+
+  .main-img
+    padding: 40px 0 0
+
+  .main
+    padding: 60px 0
+
+  .prices-box
+    padding: 0 0 20px
+
+  .prices-box-wrap:before
+    display: none
+
+  .prices-box__line
+    flex-wrap: wrap
+    span
+      min-width: auto
+      width: 100%
+      margin: 10px auto 0
+      text-align: center
+
+  .prices-box__head
+    padding: 0
+    flex-direction: column
+    align-items: center
+
+  .prices-box-name
+    width: 100%
+
+  .prices-box-auto
+    margin: 10px auto 0
+
+  .payment-img
+    max-width: 150px
+    top: -30px
+
+  .payment-wrapper
+    padding: 20px 20px 20px 160px
+
+  .calculate-wrapper
+    margin: 0 0 50px
+
+  footer .list-phones
+    width: auto
+    margin: 10px 0 0
+
+  footer
+    .phone
+      padding: 0
+      margin: 0 0 5px
+      &:last-child
+        margin: 0
+
+  .message-text
+    width: fit-content
+    max-width: 150px
+    margin: 0 0 0 auto
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 440px)
+  .payment-wrapper
+    flex-wrap: wrap
+    padding: 20px 20px 20px 105px
+    h3
+      font-size: 16px
+
+  .payment-img
+    top: auto
+    bottom: 0
+    left: 0
+
+  .payment-icon
+    margin: 10px auto 0
+
+  .address
+    margin: 10px auto
+    order: 1
+    width: 100%
+    text-align: center
+
+  footer
+    .logo
+      margin: 0 auto 0 0
+
